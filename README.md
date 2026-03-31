@@ -66,7 +66,7 @@ Refactorizar un código base para implementar una lista dinámica de tareas pend
   "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
 }
 ```
-Agrego los tipos en el ts.config 
+Agrego los tipos en el ts.config
 6. ``"types": ["vitest/globals"],``
 7. Vuelvo lanzar los tests y veo que todo se ejecuta correctamente.
 
@@ -80,3 +80,40 @@ Agrego los tipos en el ts.config
 7. Implemento la funcionalidad para agregar tareas, marcar como completadas, eliminar tareas, filtrar por estado y ordenar por prioridad, asegurándome de que cada cambio pase los tests correspondientes
 8. El el orchestrador de tareas (todo-app.component.ts) me encargo de manejar el estado global de las tareas y pasar los datos necesarios a los componentes hijos
 9. No mockeo el servicio de tareas para los tests, ya que quiero probar la integración completa entre el servicio y los componentes
+
+## Notas finales
+- He tardado unas 3 horas y media para finalizar la tarea
+- No consigo que Stackblitz pase los test coverage, han pasado en mi editor en local.
+
+Test Files  6 passed (6)
+Tests  33 passed (33)
+Start at  16:11:52
+Duration  8.62s (transform 823ms, setup 5.41s, import 1.46s, tests 1.40s, environment 29.93s)
+
+% Coverage report from v8
+------------------------------------|---------|----------|---------|---------|-------------------
+File                                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+------------------------------------|---------|----------|---------|---------|-------------------
+All files                           |    93.1 |    90.19 |   83.67 |   98.49 |                   
+helpers                            |      80 |       50 |     100 |     100 |                   
+query.helpers.ts                  |      80 |       50 |     100 |     100 | 8                 
+todo-app                           |   83.33 |    80.76 |   66.66 |   96.55 |                   
+todo-app.html                     |   61.53 |      100 |       0 |    87.5 | 11                
+todo-app.ts                       |    93.1 |    80.76 |     100 |     100 | 17,29-44          
+todo-app/components/todo-filter    |     100 |    91.66 |     100 |     100 |                   
+todo-filter.html                  |     100 |      100 |     100 |     100 |                   
+todo-filter.ts                    |     100 |    91.66 |     100 |     100 | 11                
+todo-app/components/todo-form      |     100 |      100 |     100 |     100 |                   
+todo-form.html                    |     100 |      100 |     100 |     100 |                   
+todo-form.ts                      |     100 |      100 |     100 |     100 |                   
+todo-app/components/todo-list      |      76 |    91.66 |      40 |   93.33 |                   
+todo-list.html                    |    62.5 |      100 |       0 |      90 | 11                
+todo-list.ts                      |     100 |    91.66 |     100 |     100 | 11                
+todo-app/components/todo-list-item |     100 |    93.75 |     100 |     100 |                   
+todo-list-item.html               |     100 |      100 |     100 |     100 |                   
+todo-list-item.ts                 |     100 |    91.66 |     100 |     100 | 11                
+todo-app/models                    |     100 |      100 |     100 |     100 |                   
+todo.model.ts                     |     100 |      100 |     100 |     100 |                   
+todo-app/services                  |     100 |    92.85 |     100 |     100 |                   
+todo.service.ts                   |     100 |    92.85 |     100 |     100 | 8                 
+------------------------------------|---------|----------|---------|---------|-------------------

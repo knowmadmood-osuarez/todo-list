@@ -83,7 +83,7 @@ Agrego los tipos en el ts.config
 
 ## Notas finales
 - He tardado unas 3 horas y media para finalizar la tarea
-- No consigo que Stackblitz pase los test coverage, han pasado en mi editor en local.
+- No consigo que Stackblitz ejecute los test coverage, han pasado en mi editor en local.
 
 Test Files  6 passed (6)
 Tests  33 passed (33)

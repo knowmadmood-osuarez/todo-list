@@ -72,17 +72,17 @@ Agrego los tipos en el ts.config
 
 ## Refactorización del código base
 1. Creo la estructura de componentes iniciales separado por responsabilidades
-2. Creo los servicios necesarios para manejar la lógica de negocio
+2. Creo el servicio de CRUD y su correspondiente .spec y empiezo a escribir los tests de los metodos CRUD
 3. Creo los modelos de datos para las tareas
 4. Considero usar data-testid para facilitar la selección de elementos en los tests
 5. Creo un helper para recuperar los elementos por data-testid
-6. Empiezo a escribir los tests siguiendo la metodología TDD (Red → Green → Refactor) para cada funcionalidad requerida
+6. Empiezo a escribir los tests siguiendo la metodología TDD (Red → Green → Refactor) para cada componente
 7. Implemento la funcionalidad para agregar tareas, marcar como completadas, eliminar tareas, filtrar por estado y ordenar por prioridad, asegurándome de que cada cambio pase los tests correspondientes
 8. El el orchestrador de tareas (todo-app.component.ts) me encargo de manejar el estado global de las tareas y pasar los datos necesarios a los componentes hijos
-9. No mockeo el servicio de tareas para los tests, ya que quiero probar la integración completa entre el servicio y los componentes
 
 ## Notas finales
 - He tardado unas 3 horas y media para finalizar la tarea
+- Me ha faltado tiempo para implementar el fetch a la api y mirar el ARIA labels (he comprobado la navegacion por tab)
 - No consigo que Stackblitz ejecute los test coverage, han pasado en mi editor en local.
 
 Test Files  6 passed (6)

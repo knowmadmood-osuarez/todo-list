@@ -9,6 +9,7 @@ import {TodoApp} from "./todo-app/todo-app";
         <div class="w-full p-2 flex flex-col items-center">
             <h1 class="text-3xl font-bold underline mb-16">Code Challenge</h1>
             <app-todo-app></app-todo-app>
+            <h2 class="text-sm mt-16">Oscar Suarez Payo</h2>
         </div>
     `,
 })

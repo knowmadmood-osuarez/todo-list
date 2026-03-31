@@ -1,0 +1,33 @@
+<div class="flex gap-2 px-3 py-2">
+    <button
+            data-testid="filter.all"
+            (click)="filterChange.emit('all')"
+            [class.font-semibold]="current() === 'all'"
+            [class.text-blue-600]="current() === 'all'"
+            class="text-sm text-gray-500 hover:text-blue-600 transition-colors"
+    >Todas
+    </button>
+
+    <span class="text-gray-300">|</span>
+
+    <button
+            data-testid="filter.high"
+            (click)="filterChange.emit('high')"
+            [class.font-semibold]="current() === 'high'"
+            [class.text-red-500]="current() === 'high'"
+            class="text-sm text-gray-500 hover:text-red-500 transition-colors"
+    >Alta prioridad
+    </button>
+
+    <span class="text-gray-300">|</span>
+
+    <button
+            data-testid="filter.low"
+            (click)="filterChange.emit('low')"
+            [class.font-semibold]="current() === 'low'"
+            [class.text-gray-600]="current() === 'low'"
+            class="text-sm text-gray-500 hover:text-gray-600 transition-colors"
+    >Baja prioridad
+    </button>
+</div>
+

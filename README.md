@@ -1,4 +1,4 @@
-# Code Challenge: Todo List Refactoring
+# Code Challenge: TodoService List Refactoring
 
 > Crea un gestor de tareas pendientes siguiendo **Test-Driven Development** (TDD) en Angular 21+
 
@@ -66,7 +66,9 @@ Refactorizar un código base para implementar una lista dinámica de tareas pend
   "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
 }
 ```
-6. Vuelvo lanzar los tests y veo que todo se ejecuta correctamente.
+Agrego los tipos en el ts.config 
+6. ``"types": ["vitest/globals"],``
+7. Vuelvo lanzar los tests y veo que todo se ejecuta correctamente.
 
 ## Refactorización del código base
 1. Creo la estructura de componentes iniciales separado por responsabilidades
@@ -75,3 +77,6 @@ Refactorizar un código base para implementar una lista dinámica de tareas pend
 4. Considero usar data-testid para facilitar la selección de elementos en los tests
 5. Creo un helper para recuperar los elementos por data-testid
 6. Empiezo a escribir los tests siguiendo la metodología TDD (Red → Green → Refactor) para cada funcionalidad requerida
+7. Implemento la funcionalidad para agregar tareas, marcar como completadas, eliminar tareas, filtrar por estado y ordenar por prioridad, asegurándome de que cada cambio pase los tests correspondientes
+8. El el orchestrador de tareas (todo-app.component.ts) me encargo de manejar el estado global de las tareas y pasar los datos necesarios a los componentes hijos
+9. No mockeo el servicio de tareas para los tests, ya que quiero probar la integración completa entre el servicio y los componentes

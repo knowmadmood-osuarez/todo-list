@@ -1,17 +1,18 @@
-import { Component, signal } from '@angular/core';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { TodoListComponent } from './todo-list/todo-list';
+import {Component} from '@angular/core';
+import {bootstrapApplication} from '@angular/platform-browser';
+import {TodoApp} from "./todo-app/todo-app";
 
 @Component({
-  selector: 'app-root',
-  imports: [TodoListComponent],
-  template: `
-  <div class="w-full p-2 flex flex-col items-center">
-  <h1 class="text-3xl font-bold underline mb-16">Code Challenge</h1>
-  <app-todo-list></app-todo-list>
-</div>
-`,
+    selector: 'app-root',
+    imports: [TodoApp],
+    template: `
+        <div class="w-full p-2 flex flex-col items-center">
+            <h1 class="text-3xl font-bold underline mb-16">Code Challenge</h1>
+            <app-todo-app></app-todo-app>
+        </div>
+    `,
 })
-export class App {}
+export class App {
+}
 
 bootstrapApplication(App);

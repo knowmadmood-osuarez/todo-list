@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1774965138551" clover="3.2.0">
+  <project timestamp="1774965138552" name="All files">
+    <metrics statements="133" coveredstatements="131" conditionals="102" coveredconditionals="92" methods="49" coveredmethods="41" elements="284" coveredelements="264" complexity="0" loc="133" ncloc="133" packages="8" files="13" classes="13"/>
+    <package name="helpers">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="query.helpers.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\helpers\query.helpers.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app">
+      <metrics statements="29" coveredstatements="28" conditionals="26" coveredconditionals="21" methods="15" coveredmethods="10"/>
+      <file name="todo-app.html" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\todo-app.html">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="todo-app.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\todo-app.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="26" coveredconditionals="21" methods="10" coveredmethods="10"/>
+        <line num="14" count="24" type="cond" truecount="10" falsecount="0"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="32" count="11" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.components.todo-filter">
+      <metrics statements="20" coveredstatements="20" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="5"/>
+      <file name="todo-filter.html" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-filter\todo-filter.html">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="4" count="12" type="stmt"/>
+        <line num="5" count="24" type="stmt"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="24" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="22" count="12" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="27" count="24" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+      </file>
+      <file name="todo-filter.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-filter\todo-filter.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="10" count="36" type="cond" truecount="10" falsecount="0"/>
+        <line num="11" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.components.todo-form">
+      <metrics statements="21" coveredstatements="21" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
+      <file name="todo-form.html" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-form\todo-form.html">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="8" count="39" type="stmt"/>
+        <line num="10" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="14" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="23" count="39" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+      </file>
+      <file name="todo-form.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-form\todo-form.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
+        <line num="10" count="53" type="cond" truecount="10" falsecount="0"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.components.todo-list">
+      <metrics statements="15" coveredstatements="14" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="2"/>
+      <file name="todo-list.html" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-list\todo-list.html">
+        <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="11" type="stmt"/>
+        <line num="6" count="24" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="19" count="11" type="stmt"/>
+      </file>
+      <file name="todo-list.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-list\todo-list.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="10" count="35" type="cond" truecount="10" falsecount="0"/>
+        <line num="11" count="11" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.components.todo-list-item">
+      <metrics statements="24" coveredstatements="24" conditionals="16" coveredconditionals="15" methods="5" coveredmethods="5"/>
+      <file name="todo-list-item.html" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-list-item\todo-list-item.html">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="6" count="20" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="18" count="10" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="22" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="31" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="44" count="10" type="stmt"/>
+        <line num="45" count="10" type="stmt"/>
+      </file>
+      <file name="todo-list-item.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\components\todo-list-item\todo-list-item.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="12" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="10" count="30" type="cond" truecount="10" falsecount="0"/>
+        <line num="11" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.models">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="todo.model.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\models\todo.model.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="todo-app.services">
+      <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="13" methods="12" coveredmethods="12"/>
+      <file name="todo.service.ts" path="C:\Users\Oscar Suarez\Downloads\its-cc-v2-gjbiwsav\src\todo-app\services\todo.service.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="13" methods="12" coveredmethods="12"/>
+        <line num="7" count="16" type="cond" truecount="5" falsecount="0"/>
+        <line num="8" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="16" count="17" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="18" count="17" type="stmt"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="29" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

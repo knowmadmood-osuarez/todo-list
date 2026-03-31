@@ -1,0 +1,29 @@
+<form class="flex gap-2 m-4 items-start" data-testid="form.tag" (submit)="submit($event)">
+
+    <div class="flex flex-col">
+        <input
+                data-testid="form.input"
+                type="text"
+                placeholder="Nueva tarea..."
+                [formControl]="textControl"
+                class="border rounded px-3 py-1.5 text-sm w-64 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                [class.border-red-400]="textControl.invalid && textControl.touched"
+        />
+        @if (textControl.touched && textControl.hasError('required')) {
+            <span data-testid="form.error.required" class="text-red-500 text-xs mt-1">El campo es requerido</span>
+        }
+        @if (textControl.touched && textControl.hasError('minlength')) {
+            <span data-testid="form.error.minlength" class="text-red-500 text-xs mt-1">Mínimo 3 caracteres</span>
+        }
+    </div>
+
+    <button
+            data-testid="form.submit"
+            type="submit"
+            [disabled]="textControl.invalid"
+            class="bg-blue-500 text-white text-sm px-3 py-1.5 rounded hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed"
+    >
+        Agregar
+    </button>
+
+</form>

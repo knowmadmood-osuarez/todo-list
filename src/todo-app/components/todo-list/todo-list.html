@@ -1,0 +1,22 @@
+<div class="p-4 flex flex-col items-center border bg-white w-full rounded">
+    <ul
+            data-testid="list-container"
+            class="flex flex-col w-full"
+    >
+        @for (todo of todos(); track todo.id) {
+            <app-todo-list-item
+                    data-testid="list.item"
+                    [todo]="todo"
+                    (checked)="toggleDone.emit(todo.id)"
+                    (togglePriority)="togglePriority.emit(todo.id)"
+                    (delete)="delete.emit(todo.id)"
+            />
+        } @empty {
+            <li data-testid="list.empty" class="text-gray-400 text-sm text-center py-4">
+                No hay tareas
+            </li>
+        }
+    </ul>
+</div>
+
+

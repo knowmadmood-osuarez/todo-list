@@ -1,0 +1,16 @@
+<app-todo-form (addTodo)="add($event)"/>
+
+<app-todo-filter
+        [current]="filter()"
+        (filterChange)="filter.set($event)"
+/>
+
+<app-todo-list
+        [todos]="filteredTodos()"
+        (toggleDone)="toggleDone($event)"
+        (togglePriority)="togglePriority($event)"
+        (delete)="delete($event)"
+/>
+
+
+
